@@ -4,15 +4,19 @@
   "description": "seed tracking API will connect the seed tracking system and the field inspection app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "seedtrackingapi"
+    "url": "https://github.com/Soza-Wilson/SeedTrackingAPI.git"
   },
   "author": "Wilson Soza",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql2": "^3.5.1",
     "nodemon": "^2.0.22"
   }
 }
